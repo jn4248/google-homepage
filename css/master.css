@@ -1,0 +1,97 @@
+
+
+.container {
+  max-width: 1920px;
+  max-height: 1080px;
+  min-width: 400px;
+}
+nav.nav-top {
+  background: #333333;
+}
+a.ntop {
+  font-family: sans-serif;
+  font-size: 12px;
+  text-decoration: none;
+  color: #ccc;
+  padding: 4px 4px;
+  display: inline-block;
+}
+a.ntop:hover {
+  color: white;
+  font-weight: bold;
+}
+a.ntop::after {
+  display: block;
+  content: attr(title);
+  font-weight: bold;
+  height: 1px;
+  overflow: hidden;
+  visibility: hidden;
+  margin-bottom: -1px;
+}
+img.logo {
+  width: 300px;
+  height: 117px;
+  margin: 100px auto 0;
+  display: block;
+}
+.search-container {
+  width: 40%;
+  margin: 0 10px 0 30%;
+  float: left;
+}
+#main-search {
+  font-size: 16px;
+  padding: 2px;
+  width: 100%;
+  max-width: 1024;
+  box-shadow: 1px 1px 1px grey;
+}
+a.s-link {
+  font-family: "New Times Roman", serif;
+  font-size: 10px;
+  color: blue;
+  display: block;
+  padding: 1px;
+}
+.s-button-container {
+  margin: 5px auto 0;
+  text-align: center;
+  display: block;
+}
+button.s-button {
+  font-family: arial, sans-serif;
+  font-size: 12px;
+  margin: 0 10px;
+  padding: 2px;
+  display: inline-block;
+  background-image: linear-gradient(white 50%, lightgrey);
+  box-shadow: 1px 1px 1px grey;
+}
+.business-links {
+  text-align: center;
+}
+a.b-link, a.f-link{
+  font-family: "New Times Roman", serif;
+  font-size: 10px;
+  color: blue;
+  padding: 0 8px;
+}
+/*Business-link container*/
+#first-b-link {
+  clear: both;
+  margin-top: 100px;
+}
+/*div*/
+#copyright {
+  padding: 20px 0 100px;
+}
+/*a*/
+#privacy-link {
+  padding: 0;
+}
+/*paragraph*/
+#privacy {
+  font-family: "New Times Roman", serif;
+  font-size: 10px;
+}
