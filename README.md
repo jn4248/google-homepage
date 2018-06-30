@@ -1,4 +1,4 @@
-# google-homepage
+# google_homepage
 First project in The Odin Project - Create an imitation Google Homepage
 
 Deconstruct Google's Homepage, and rebuild it.  Links will not necessarily function away from the homepage.  
